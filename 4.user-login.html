@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Typing Hero</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <h1>Typing Hero</h1>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#" class="nav-link">About Us</a>
+                    <a href="#" class="nav-link">Test Results</a>
+                    <a href="#" class="nav-link">Typing Test</a>
+                    <a href="#" class="nav-link">Account</a>
+                </nav>
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="auth-wrapper">
+                <div class="auth-container">
+                    <div class="auth-header">
+                        <h1>Welcome Back</h1>
+                        <p>Sign in to continue your typing journey</p>
+                    </div>
+
+                    <form class="auth-form" id="loginForm">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+
+                        <div class="form-options">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="remember">
+                                <span class="checkmark"></span>
+                                Remember me
+                            </label>
+                            <a href="reset-password.html" class="forgot-link">Forgot password?</a>
+                        </div>
+
+                        <button type="submit" class="auth-btn">Sign In</button>
+                    </form>
+
+                    <div class="auth-footer">
+                        <p>Don't have an account? <a href="#" class="auth-link">Sign up here</a></p>
+                    </div>
+
+                    <div class="divider">
+                        <span>or</span>
+                    </div>
+
+                    <div class="social-login">
+                        <button class="social-btn google-btn">
+                            <span class="social-icon">G</span>
+                            Continue with Google
+                        </button>
+                        <button class="social-btn facebook-btn">
+                            <span class="social-icon">f</span>
+                            Continue with Facebook
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Typing Hero. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
