@@ -128,12 +128,6 @@ body {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.feature-icon {
-    font-size: 3rem;
-    color: #555;
-    margin-bottom: 1rem;
-}
-
 .feature h3 {
     color: #2c2c2c;
     margin-bottom: 1rem;
